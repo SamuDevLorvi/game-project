@@ -1,0 +1,9 @@
+export const BOARD_WIDTH = 10
+export const BOARD_HEIGHT = 20
+export const INITIAL_DROP_MS = 1000
+export const HORIZONTAL_REPEAT_MS = 150
+export const SOFT_DROP_MS = 50
+export const MIN_DROP_MS = 100
+export const DROP_REDUCTION_MS = 100
+export const LINES_PER_LEVEL = 10
+export const COUNTDOWN_SECONDS = 3
