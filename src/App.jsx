@@ -1,7 +1,7 @@
-import { Board } from './components/Board.tsx'
-import { PiecePreview } from './components/PiecePreview.tsx'
-import { createEmptyBoard, getVisibleBoard } from './game/board.ts'
-import { createPiece } from './game/pieces.ts'
+import { Board } from './components/Board.jsx'
+import { PiecePreview } from './components/PiecePreview.jsx'
+import { createEmptyBoard, getVisibleBoard } from './game/board.js'
+import { createPiece } from './game/pieces.js'
 import './App.css'
 
 // Primer punto de comprobación: tablero y piezas visibles.

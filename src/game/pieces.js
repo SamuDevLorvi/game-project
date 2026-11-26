@@ -1,5 +1,4 @@
-import { BOARD_WIDTH } from './constants.ts'
-import type { ActivePiece, PieceKind, Shape } from './types.ts'
+import { BOARD_WIDTH } from './constants.js'
 
 // Las mismas formas iniciales de la definición del proyecto.
 export const SHAPES = {
@@ -10,9 +9,9 @@ export const SHAPES = {
   Z: [[1, 1, 0], [0, 1, 1]],
   J: [[1, 0, 0], [1, 1, 1]],
   L: [[0, 0, 1], [1, 1, 1]],
-} as const satisfies Record<PieceKind, Shape>
+}
 
-export function createPiece(kind: PieceKind): ActivePiece {
+export function createPiece(kind) {
   const shape = SHAPES[kind].map((row) => [...row])
   return {
     kind,
