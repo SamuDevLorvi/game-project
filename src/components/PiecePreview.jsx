@@ -1,7 +1,6 @@
-import { SHAPES } from '../game/pieces.ts'
-import type { PieceKind } from '../game/types.ts'
+import { SHAPES } from '../game/pieces.js'
 
-export function PiecePreview({ kind }: { kind: PieceKind }) {
+export function PiecePreview({ kind }) {
   const shape = SHAPES[kind]
   return (
     <div

@@ -1,10 +1,4 @@
-import type { Board as BoardData } from '../game/types.ts'
-
-interface BoardProps {
-  cells: BoardData
-}
-
-export function Board({ cells }: BoardProps) {
+export function Board({ cells }) {
   return (
     <div className="board" role="grid" aria-label="Tablero de Tetris">
       {cells.map((row, y) => (

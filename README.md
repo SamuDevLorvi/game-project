@@ -9,9 +9,9 @@ https://docs.google.com/document/d/1BwPSF0n1xiKjQk503Q-rdB-YFL-T-FcY2ME_kR8Kxik/
 
 ## Desarrollo
 
-Proyecto de Tetris con React, TypeScript y Vite.
+Proyecto de Tetris con React, JavaScript y Vite.
 
-El [plan de dependencias y desglose técnico](docs/PLAN_TETRIS.md) contiene las tareas por historia, el orden propuesto, las comprobaciones y el reparto de esta semana.
+Los componentes de React usan archivos `.jsx` y la lógica del juego usa archivos `.js`.
 
 ### Estado actual
 
@@ -19,7 +19,7 @@ Primer incremento de preparación técnica: tablero, formas, pieza activa y vist
 
 ### Ejecutar
 
-Preparado y comprobado con Node 24.22.3. Las pruebas usan el soporte nativo de TypeScript de Node.
+Preparado y comprobado con Node 24.22.3. Las pruebas de JavaScript se ejecutan con Node.
 
 ```bash
 npm ci
